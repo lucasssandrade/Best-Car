@@ -27,7 +27,7 @@ const About = () => {
               QUALIDADE E CONFIANÇA PARA O SEU VEÍCULO
             </h2>
             <p className="text-primary-foreground/80 text-lg mb-8 leading-relaxed">
-              A Best Car - Centro Automotivo é referência em serviços mecânicos em Santo André. 
+              A Best Car - Automotive Performance é referência em serviços mecânicos em Santo André. 
               Com uma equipe qualificada e equipamentos modernos, garantimos o melhor atendimento 
               para você e seu veículo.
             </p>

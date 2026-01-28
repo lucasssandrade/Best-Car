@@ -1,5 +1,6 @@
-import { Phone, MapPin, Menu, X } from "lucide-react";
+import { Phone, Menu, X } from "lucide-react";
 import { useState } from "react";
+import logo from "@/assets/logo.jpeg";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,14 +16,12 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <div className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center">
-              <span className="font-display text-xl text-secondary-foreground">BC</span>
-            </div>
-            <div className="hidden sm:block">
-              <h1 className="font-display text-xl text-primary-foreground leading-none">Best Car</h1>
-              <p className="text-xs text-primary-foreground/70">Centro Automotivo</p>
-            </div>
+          <div className="flex items-center gap-3">
+            <img 
+              src={logo} 
+              alt="Best Car Automotive Performance" 
+              className="h-12 md:h-14 w-auto"
+            />
           </div>
 
           {/* Desktop Nav */}

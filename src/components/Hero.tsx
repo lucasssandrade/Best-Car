@@ -35,7 +35,7 @@ const Hero = () => {
             BEST CAR
           </h1>
           <h2 className="font-display text-2xl md:text-3xl lg:text-4xl text-gradient mb-6 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-            Centro Automotivo
+            Automotive Performance
           </h2>
 
           {/* Description */}
